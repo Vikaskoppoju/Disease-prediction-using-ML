@@ -1,0 +1,141 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    
+    
+    <script src="https://kit.fontawesome.com/83ce78bbab.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
+</head>
+<body>
+    <header class="site-header">
+        <div class="site-identity">
+            <h1><a href="{% url 'home' %}" class="logo"><i class="fa-sharp fa-solid fa-heart-pulse"></i><span class="headnavspan">Disease Prediction</span></a></h1>
+        </div>
+        <nav class="site-navigation">
+            <ul class="nav">
+                <li><a href="{% url 'home' %}"><i class="fa-solid fa-house"></i><span class="headnavspan">home</span></a></li>
+                <li><a href="{% url 'check' %}"><i class="fa-solid fa-check-to-slot"></i><span class="headnavspan">Predict</span></a></li>
+                <li><a href="{% url 'about' %}"><i class="fa-solid fa-user"></i><span class="headnavspan">About</span></a></li>
+                
+            </ul>
+        </nav>
+    </header>
+    <div class="aboutsec1"> 
+        <div class="image">
+          <img src="{% static 'image/about1.png' %}">
+        </div>   
+        <div class="about-section">
+          <h1>About Us </h1>
+          <p>Based on the symptoms you provide, our model predicts your disease...</p>
+        <p>(For example, which is a Random Forest and which is a Supervised Machine Learning Algorithm.)</p>
+        <p>Is commonly used in classification and regression problems. It generates decision trees based on different samples.</p>
+        <p>Majority In the case of regression, vote for classification and average.</p>
+          
+        </div>
+        
+    </div>
+        <section class="game2">
+            <h3>Our <span>Guide</span></h3>
+            <center><div class="box2">
+                <h3>D.Anjani Suputri Devi</h3>
+                <p>Madam</p>
+                <h6>CSE Department</h6>
+
+            </div></center>
+        </section>
+        
+        
+        <section class="game">
+            <h3>WE <span>TEAM</span></h3>
+        <div class="contact1">
+            <div class="box">
+                <p></p>
+                <h3>Sai Kishore Tadi</h3>
+                <span>20A81A05I5</span>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    
+                    <a href="#" class="fa-solid fa-envelope"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+            <div class="box">
+                <p></p>
+                <h3>vikas Kumar Koppoju</h3>
+                <span>20A81A05F4</span>
+                <div class="share" >
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    
+                    <a href="#" class="fa-solid fa-envelope"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+            <div class="box">
+                <p></p>
+                <h3>Jahnavi Veliganti</h3>
+                <span>20A81A05J3</span>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    
+                    <a href="#" class="fa-solid fa-envelope"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+            <div class="box">
+                <p></p>
+                <h3>Aditya Varma Chintalapati</h3>
+                <span>20A81A05D6</span>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    
+                    <a href="#" class="fa-solid fa-envelope"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+
+        </div>
+        </section>
+    
+
+    
+    
+    
+
+
+
+
+
+
+
+
+    <footer class="site-foot">
+        <div class="footp">
+            <p><i class="fa-regular fa-face-smile"></i>Thank You for visiting our site</p>
+        </div>
+        <div class="bottom-nav">
+        <div class="Quick-links">
+            <p>Quick links</p>
+            <a href="{% url 'home' %}"><i class="fa-solid fa-house"></i><span class="footnavspan">home</span></a>
+            <a href="{% url 'check' %}"><i class="fa-solid fa-check-to-slot"></i><span class="footnavspan">Predict</span></a>
+            <a href="{% url 'about' %}"><i class="fa-solid fa-user"></i><span class="footnavspan">About</span></a>
+
+        </div>
+        <div class="Reach Us">
+            <p>Reach Us</p>
+            <a href="6305535725"><i class="fa-solid fa-phone"></i><span class="footcon">Phone</span></a>
+            <a href="koppojuvikas@gmail.com"><i class="fa-solid fa-envelope"></i><span class="footcon">Email</span></a>
+            <a href="koppojuvikas@gmail.com"><i class="fa-brands fa-github"></i><span class="footcon">Github</span></a>
+            
+        </div>
+        </div>
+        
+    </footer>
+    
+</body>
+</html>

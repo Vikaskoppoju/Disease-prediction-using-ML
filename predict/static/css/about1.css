@@ -1,0 +1,148 @@
+:root{
+    --green:#16a085;
+    --black:#444;
+    --light-color:#777;
+    --box-shadow:.5rem .5rem 0 rgba(22, 160, 133, .2);
+    --text-shadow:.4rem .4rem 0 rgba(0, 0, 0, .2);
+    --borde:.2rem solid #001b48;
+}
+
+html{
+  
+  overflow-x: hidden;
+  scroll-padding-top: 7rem;
+  scroll-behavior: smooth;
+}
+ html {
+    box-sizing: border-box;
+  }
+
+
+
+
+
+
+
+
+
+
+.aboutsec1{
+    background-color: #fff;
+    display: flex;
+    
+}
+.aboutsec1 .about-section{
+    margin-top: 13rem;
+
+}
+.aboutsec1 .about-section h1{
+    font-size: 60px;
+    text-shadow: var(--text-shadow);
+}
+
+
+
+
+
+
+
+.game .contact1{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    padding-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+  }
+  .game .contact1 .box{
+    height: 350px;
+    width: 600px;
+    
+    background-color: #fff;
+    text-align: center;
+    border: .2rem solid #001b48;
+    border-radius: .5rem;
+    
+    padding: 5px;
+  
+  }
+  .game .contact1 h3{
+    margin-top: 2rem;
+    font-size: 2.5rem;
+  }
+  .game .contact1  h3{
+    color:var(--black);
+    font-size: 2.5rem;
+    
+  }
+  .game .contact1  span{
+    color:#16a085;
+    font-size: 1.5rem;
+    
+  }
+  .game .contact1  .share a{
+    height: 5rem;
+    width: 5rem;
+    line-height: 4rem;
+    font-size: 2rem;
+    color:#001b48;
+    border-radius: .5rem;
+    border:var(--border);
+    margin:.3rem;
+  }
+  
+  .game .contact1  .share a:hover{
+    background:var(--green);
+    color:#fff;
+    box-shadow: var(--box-shadow);
+  }
+  .game h3{
+    text-align: center;
+    color: #444;
+    font-size: 40px;
+    padding: 10px;
+  
+  }
+  .game h3 span{
+    color: #16a085;
+  }
+  .game{
+    background-color: #e0ecff;
+  }
+  .game2{
+    background-color: #e0ecff;
+    
+  }
+  .game2 .box2{
+    border: var(--border);
+    height: 260px;
+    width: 600px;
+    border-radius: 5px;
+    box-shadow: var(--box-shadow);
+    text-align: center;
+    background-color: #fff;
+    
+    
+  }
+  .game2 h3{
+    color: #444;
+    text-align: center;
+    font-size: 40px;
+    padding: 10px;
+    margin-top: 1.0rem;
+  }
+  .game2 h3 span{
+    color: #16a085;
+  }
+  .game2 .box2 p{
+    color: #16a085;
+    margin-top: 1.6rem;
+    font-size: 1.5rem;
+  }
+  .game2 .box2 h6{
+    color: #444;
+    margin-top: 1.7rem;
+    font-size: 2rem;
+  
+  }

@@ -1,0 +1,75 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
+    
+    <script src="https://kit.fontawesome.com/83ce78bbab.js" crossorigin="anonymous"></script>
+   
+</head>
+<body>
+    <header class="site-header">
+        <div class="site-identity">
+            <h1><a href="{% url 'home' %}" class="logo"><i class="fa-sharp fa-solid fa-heart-pulse"></i><span class="headnavspan">Disease Prediction</span></a></h1>
+        </div>
+        <nav class="site-navigation">
+            <ul class="nav">
+                <li><a href="{% url 'home' %}"><i class="fa-solid fa-house"></i><span class="headnavspan">home</span></a></li>
+                <li><a href="{% url 'check' %}"><i class="fa-solid fa-check-to-slot"></i><span class="headnavspan">Predict</span></a></li>
+                <li><a href="{% url 'about' %}"><i class="fa-solid fa-user"></i><span class="headnavspan">About</span></a></li>
+                
+            </ul>
+        </nav>
+    </header>
+    <section class="report">
+        <h1>Predicted <span>Result</span></h1>
+        <div class="reportdiv">
+            <img src="{% static 'image/s9.jpg' %}">
+            <h3>
+                Predicted Disease is:
+            </h3>
+            <p>{{ res }}</p>
+            <a href="{% url 'getpdf' %}"><button id="btn1" ><i class="fa-solid fa-download"></i>Download Report</button></a>
+            
+        </div>
+    </section>
+    
+    
+
+
+
+
+
+
+
+
+    <footer class="site-foot">
+        <div class="footp">
+            <p><i class="fa-regular fa-face-smile"></i>Thank You for visiting our site</p>
+        </div>
+        <div class="bottom-nav">
+        <div class="Quick-links">
+            <p>Quick links</p>
+            <a href="{% url 'home' %}"><i class="fa-solid fa-house"></i><span class="footnavspan">home</span></a>
+            <a href="{% url 'check' %}"><i class="fa-solid fa-check-to-slot"></i><span class="footnavspan">Predict</span></a>
+            <a href="{% url 'about' %}"><i class="fa-solid fa-user"></i><span class="footnavspan">About</span></a>
+
+        </div>
+        <div class="Reach Us">
+            <p>Reach Us</p>
+            <a href="6305535725"><i class="fa-solid fa-phone"></i><span class="footcon">Phone</span></a>
+            <a href="koppojuvikas@gmail.com"><i class="fa-solid fa-envelope"></i><span class="footcon">Email</span></a>
+            <a href="koppojuvikas@gmail.com"><i class="fa-brands fa-github"></i><span class="footcon">Github</span></a>
+            
+        </div>
+        </div>
+        
+    </footer>
+    
+</body>
+</html>

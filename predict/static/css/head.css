@@ -1,0 +1,43 @@
+
+
+
+.check{
+    background-color: #fff;
+}
+
+.check .content{
+    background-color: #e0ecff;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    border-radius: 5px;
+    padding-top: 20px;
+    margin: 0%;
+    
+    box-shadow: .5rem .5rem 0 #001b48;
+    
+
+}
+.check .content form{
+    color: #001b48;
+}
+.check .content table .box{
+    width: 20rem;
+    height: 3rem;
+    border-radius: 5px;
+    padding: 5px;
+}
+.check .content h3{
+    font-size: 40px;
+}
+.check .content .btn{
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    
+    background-color: #001b48;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 15px;
+}

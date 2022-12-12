@@ -1,0 +1,46 @@
+
+
+
+*{
+    text-decoration: none;
+    text-transform: capitalize;
+    box-sizing: border-box;
+    font-family: 'Shalimar', cursive;
+    cursor: pointer;
+    
+}
+.home .image img{
+    height: auto;
+    width: 100%;
+    margin: 0%;
+}
+.content{
+    
+    position: absolute;
+    top: 650px;
+    right: 25%;
+    margin-left: 10px;
+    box-sizing: border-box;
+    
+}
+.content .prem1{
+    font-size: 75px;
+}
+
+.content #btn{
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    
+    background-color: #001b48;
+    border-radius: 20px;
+    
+    
+}
+.content #btn i{
+    font-size: 20px;
+    padding-left: 5px;
+}
+
+
