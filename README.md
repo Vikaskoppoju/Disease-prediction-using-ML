@@ -13,3 +13,4 @@ trees in the forest.
 * First, a random sample of n records from a data collection with k records is selected for the Random Forest model. Each sample's own decision tree is built in 
 second step. The third step is when each decision tree produces an output. 
 * The final output is evaluated based on the majority vote or the average for classification and regression, respectively. 
+![This is an image](https://drive.google.com/file/d/1Nq9BhTPi8ZKto37jrBTbJzE_jamPHdLE/view)
