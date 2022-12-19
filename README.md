@@ -13,4 +13,20 @@ trees in the forest.
 * First, a random sample of n records from a data collection with k records is selected for the Random Forest model. Each sample's own decision tree is built in 
 second step. The third step is when each decision tree produces an output. 
 * The final output is evaluated based on the majority vote or the average for classification and regression, respectively. 
-![This is an image](https://drive.google.com/file/d/1Nq9BhTPi8ZKto37jrBTbJzE_jamPHdLE/view)
+## DESIGN AND WORK FLOW: 
+![WhatsApp Image 2022-12-19 at 13 52 57](https://user-images.githubusercontent.com/98159254/208402269-6b160c88-1160-4126-9bb2-112ae841f7d5.jpg)
+## Software Requirements
+- python-above 3
+#### Packages
+You can download all required packages by executing the below commands in manage.py location in project
+* pip install -r req.txt
+> The above command recursively download all required packages to your system.
+## FrontEnd Design:
+#### Home Page
+![image](https://user-images.githubusercontent.com/98159254/208404321-aea44def-0a10-4a21-b54e-ad9c103e270d.png)
+#### This page takes Inputs from user
+![image](https://user-images.githubusercontent.com/98159254/208404391-1b9e6bdd-a878-4287-855d-135692f48e6f.png)
+#### Result Page
+![image](https://user-images.githubusercontent.com/98159254/208404525-7a8b7d86-bcf5-4c63-95a1-c20341468038.png)
+#### The User can  download the result as PDF format
+![image](https://user-images.githubusercontent.com/98159254/208404704-1c80d34e-0982-4c94-9fb8-6856c1a29185.png)
