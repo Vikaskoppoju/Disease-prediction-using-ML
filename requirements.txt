@@ -8,7 +8,7 @@ comtypes==1.1.13
 decorator==5.1.1
 Django==4.0.5
 django-crispy-forms==1.14.0
-
+setuptools==58.0.0
 MarkupSafe==2.1.1
 numpy==1.22.4
 
